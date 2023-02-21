@@ -1,0 +1,27 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eef4f7;
+  padding: 12px;
+  height: auto;
+}
+
+.heading {
+  color: #334155;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: underline;
+  text-decoration-color: #52bbf0;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 16px;
+}
+
+.travel-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
